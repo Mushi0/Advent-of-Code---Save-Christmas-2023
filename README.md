@@ -4,7 +4,7 @@
 |Day|Problem|Progress|
 |:---:|:---:|:---:|
 |01|[:star:](https://adventofcode.com/2023/day/1)|[:rabbit:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D1_1.py)[:bear:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D1_2.py)|
-|02|||
+|02|[:star:](https://adventofcode.com/2023/day/2)|[:rabbit:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D2_1.py)[:bear:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D2_2.py)|
 |03|||
 |04|||
 |05|||
