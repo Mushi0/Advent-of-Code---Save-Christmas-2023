@@ -5,7 +5,7 @@
 |:---:|:---:|:---:|
 |01|[:star:](https://adventofcode.com/2023/day/1)|[:rabbit:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D1_1.py)[:bear:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D1_2.py)|
 |02|[:star:](https://adventofcode.com/2023/day/2)|[:rabbit:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D2_1.py)[:bear:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D2_2.py)|
-|03|||
+|03|[:star:](https://adventofcode.com/2023/day/3)|[:rabbit:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D3_1.py)[:bear:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D3_2.py)|
 |04|||
 |05|||
 |06|||
