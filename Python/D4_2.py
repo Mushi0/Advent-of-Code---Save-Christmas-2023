@@ -1,5 +1,4 @@
 import sys
-import re
 
 def main(DATA_INPUT):
     winnings = []
