@@ -7,7 +7,7 @@
 |02|[:star:](https://adventofcode.com/2023/day/2)|[:rabbit:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D2_1.py)[:bear:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D2_2.py)|
 |03|[:star:](https://adventofcode.com/2023/day/3)|[:rabbit:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D3_1.py)[:bear:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D3_2.py)|
 |04|[:star:](https://adventofcode.com/2023/day/4)|[:rabbit:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D4_1.py)[:bear:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D4_2.py)|
-|05|||
+|05|[:star:](https://adventofcode.com/2023/day/5)|[:rabbit:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D5_1.py)[:bear:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D5_2.py)|
 |06|||
 |07|||
 |08|||
