@@ -1,4 +1,5 @@
 import sys
+import time
 
 def get_sum(first_str, second_str, third_str):
     total_one_line = 0
@@ -29,6 +30,8 @@ def get_sum(first_str, second_str, third_str):
     return total_one_line
 
 def main(DATA_INPUT):
+    start_time = time.time()
+    
     total = 0
     with open(DATA_INPUT) as f:
         second_str = f.readline().strip('\n')
@@ -42,7 +45,8 @@ def main(DATA_INPUT):
         third_str = '.' * len(second_str)
         total += get_sum(first_str, second_str, third_str)
     
-    print(total)
+    print(f'Time taken: {(time.time() - start_time):.3e}s')
+    print(f'The sum of all of the part numbers in the engine schematic is: {total}')
 
 if __name__ == '__main__':
     main(sys.argv[1])

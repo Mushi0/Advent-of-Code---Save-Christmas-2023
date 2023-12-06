@@ -1,6 +1,9 @@
 import sys
+import time
 
 def main(DATA_INPUT):
+    start_time = time.time()
+
     almanac = {'seed-to-soil': [], 
             'soil-to-fertilizer': [], 
             'fertilizer-to-water': [], 
@@ -34,7 +37,8 @@ def main(DATA_INPUT):
                     break
         locations_to_plant.append(intermediate)
     
-    print(min(locations_to_plant))
+    print(f'Time taken: {(time.time() - start_time):.3e}s')
+    print(f'The lowest location number that corresponds to any of the initial seed numbers is: {min(locations_to_plant)}')
 
 if __name__ == '__main__':
     main(sys.argv[1])

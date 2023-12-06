@@ -1,6 +1,16 @@
 import sys
+import time
+
+next_category = {'seed-to-soil': 'soil-to-fertilizer', 
+                     'soil-to-fertilizer': 'fertilizer-to-water', 
+                     'fertilizer-to-water': 'water-to-light', 
+                     'water-to-light': 'light-to-temperature', 
+                     'light-to-temperature': 'temperature-to-humidity', 
+                     'temperature-to-humidity': 'humidity-to-location'}
 
 def main(DATA_INPUT):
+    start_time = time.time()
+
     almanac = {'seed-to-soil': [], 
             'soil-to-fertilizer': [], 
             'fertilizer-to-water': [], 
@@ -8,13 +18,6 @@ def main(DATA_INPUT):
             'light-to-temperature': [], 
             'temperature-to-humidity': [], 
             'humidity-to-location': []}
-
-    next_category = {'seed-to-soil': 'soil-to-fertilizer', 
-                     'soil-to-fertilizer': 'fertilizer-to-water', 
-                     'fertilizer-to-water': 'water-to-light', 
-                     'water-to-light': 'light-to-temperature', 
-                     'light-to-temperature': 'temperature-to-humidity', 
-                     'temperature-to-humidity': 'humidity-to-location'}
     
     with open(DATA_INPUT) as f:
         my_str = f.readline()
@@ -83,7 +86,9 @@ def main(DATA_INPUT):
     for d in destination:
         if d[0] < min_location:
             min_location = d[0]
-    print(min_location)
+
+    print(f'Time taken: {(time.time() - start_time):.3e}s')
+    print(f'The lowest location number that corresponds to any of the initial seed numbers is: {min_location}')
 
 if __name__ == '__main__':
     main(sys.argv[1])

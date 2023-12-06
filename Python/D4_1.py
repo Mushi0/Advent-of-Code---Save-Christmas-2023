@@ -1,6 +1,9 @@
 import sys
+import time
 
 def main(DATA_INPUT):
+    start_time = time.time()
+    
     total = 0
     with open(DATA_INPUT) as f:
         my_str = f.readline()
@@ -13,7 +16,9 @@ def main(DATA_INPUT):
             if not nb_of_winning == 0:
                 total += pow(2, nb_of_winning - 1)
             my_str = f.readline()
-    print(total)
+    
+    print(f'Time taken: {(time.time() - start_time):.3e}s')
+    print(f'The number of points the scratchcards are worth in total is: {total}')
 
 if __name__ == '__main__':
     main(sys.argv[1])
