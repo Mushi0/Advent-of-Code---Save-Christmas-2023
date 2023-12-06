@@ -17,7 +17,7 @@ def main(DATA_INPUT):
     for i, t in enumerate(race_time):
         tt = int(t/2)
         while tt*(t - tt) > distance[i]:
-                tt -= 1
+            tt -= 1
         if t % 2 != 0:
             total *= ((math.floor(t/2) - tt)*2)
         else:
