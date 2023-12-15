@@ -45,9 +45,6 @@ def main(DATA_INPUT):
             contiguous_groups = contiguous_groups.split(',')
             contiguous_groups = [int(i) for i in contiguous_groups]
 
-            record = '?'.join([record] * 5)
-            contiguous_groups = contiguous_groups * 5
-
             record = re.sub('\.\.+', '.', record)
             total += count_matches(record, tuple(contiguous_groups))
 

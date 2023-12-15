@@ -14,7 +14,7 @@
 |09|||||
 |10|||||
 |11|||||
-|12|[:star:](https://adventofcode.com/2023/day/12)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D12_1_better.py)[:santa:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D12_2.py)|6.668e+00s|-|
+|12|[:star:](https://adventofcode.com/2023/day/12)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D12_1_evenBetter.py)[:santa:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D12_2.py)|1.891e-01s|4.519e+01s|
 |13|||||
 |14|||||
 |15|||||
