@@ -14,7 +14,7 @@
 |09|||||
 |10|||||
 |11|||||
-|12|||||
+|12|[:star:](https://adventofcode.com/2023/day/12)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D12_1_better.py)[:santa:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D12_2.py)|6.668e+00s|-|
 |13|||||
 |14|||||
 |15|||||

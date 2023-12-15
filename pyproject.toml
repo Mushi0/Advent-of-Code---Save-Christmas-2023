@@ -8,6 +8,7 @@ packages = [{include = "advent_of_code_save_christmas_2023"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+tqdm = "^4.66.1"
 
 
 [build-system]
