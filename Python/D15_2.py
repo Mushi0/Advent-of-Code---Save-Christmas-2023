@@ -38,7 +38,7 @@ def main(DATA_INPUT):
             counter += 1
 
     print(f'Time taken: {(time.time() - start_time):.3e}s')
-    print(f'The focusing power of the resulting lens configuration is: {int(total)}')
+    print(f'The focusing power of the resulting lens configuration is: {total}')
 
 if __name__ == '__main__':
     main(sys.argv[1])

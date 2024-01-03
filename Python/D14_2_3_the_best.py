@@ -42,7 +42,7 @@ def main(DATA_INPUT):
     
     map_cycles = {0: my_map}
     cycle = 0
-    for _ in tqdm(range(NB_CYCLES)):
+    for _ in range(NB_CYCLES):
         for _ in range(4):
             my_map = transpose_map(my_map)
             my_map = roll(my_map)
@@ -65,7 +65,7 @@ def main(DATA_INPUT):
         total_load += sum((i + 1) for i, c in enumerate(line) if c == 'O')
 
     print(f'Time taken: {(time.time() - start_time):.3e}s')
-    print(f'The total load on the north support beams is: {int(total_load)}')
+    print(f'The total load on the north support beams is: {total_load}')
 
 if __name__ == '__main__':
     main(sys.argv[1])

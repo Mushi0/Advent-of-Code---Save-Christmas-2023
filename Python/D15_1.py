@@ -23,7 +23,7 @@ def main(DATA_INPUT):
         total += hash_func(string)
 
     print(f'Time taken: {(time.time() - start_time):.3e}s')
-    print(f'The sum of the results is: {int(total)}')
+    print(f'The sum of the results is: {total}')
 
 if __name__ == '__main__':
     main(sys.argv[1])

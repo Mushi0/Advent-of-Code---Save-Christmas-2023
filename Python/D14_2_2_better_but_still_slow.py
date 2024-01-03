@@ -103,7 +103,7 @@ def main(DATA_INPUT):
     total_load = sum((N_ROWS - i) for i, _ in rocks)
 
     print(f'Time taken: {(time.time() - start_time):.3e}s')
-    print(f'The total load on the north support beams is: {int(total_load)}')
+    print(f'The total load on the north support beams is: {total_load}')
 
 if __name__ == '__main__':
     main(sys.argv[1])
