@@ -1,0 +1,27 @@
+In C++, you don't use the new keyword when creating an object of a class unless you want the object to be dynamically allocated on the heap. 
+
+========================================================================
+
+In C++, when you create an object, you can choose to allocate it on the stack or dynamically on the heap. Here are the main differences:
+
+Stack Allocation:
+
+1). Memory is automatically managed. Objects are destroyed as soon as they go out of scope. 
+
+2). Allocation and deallocation are fast. 
+
+3). Space is limited. The stack is typically much smaller than the heap.
+
+4). If you allocate a large amount of memory on the stack, you might encounter a stack overflow. 
+
+Dynamic Allocation (Heap):
+
+1). You manually manage memory. You use new to allocate memory and delete to deallocate it. 
+
+2). Allocation and deallocation are slower.
+
+3). Space is usually only limited by the size of the addressable memory.
+
+4). If you forget to delete memory, it causes a memory leak. 
+
+========================================================================
