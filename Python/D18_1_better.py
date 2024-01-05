@@ -41,8 +41,9 @@ def main(DATA_INPUT):
 
     polygon_area = get_polygon_area(vertices)
     polygon_perimeter = get_polygon_perimeter(vertices)
-    # A point on a non-corner edge counts as 1/2 in the area, 
-    # an inner corner 1/4, and an outer corner 3/4. 
+    # for a grid-based system, 
+    # a point on a non-corner edge counts as 1/2 in the area, 
+    # an inner corner 1/4, and an outer corner 3/4
     # in this case the number of inner corners is 4 less than outer corners
     # with Pick's theorem: I + (L+4)/2 - 1 = I + L/2 + 1
     lava_vol = polygon_area + polygon_perimeter // 2 + 1
