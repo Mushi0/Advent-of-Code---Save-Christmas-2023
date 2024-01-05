@@ -25,3 +25,17 @@ Dynamic Allocation (Heap):
 4). If you forget to delete memory, it causes a memory leak. 
 
 ========================================================================
+
+Calculating AREA! 
+
+Use Shoelace formula to calculate area of simple polygons with given vertices. 
+
+- Simple polygon: a polygon that has non-intersecting edges. This means that except at the vertices, no two edges of the polygon cross or touch each other. 
+
+- The order of the vertices should be clockwise or anti-clockwise. 
+
+- The starting (ending) point does not need to be repeated. 
+
+If it's a grid-based system, use Pick's theorem to calculate the area including the edge. 
+
+========================================================================
