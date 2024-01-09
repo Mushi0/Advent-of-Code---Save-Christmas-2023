@@ -39,3 +39,20 @@ Use Shoelace formula to calculate area of simple polygons with given vertices.
 If it's a grid-based system, use Pick's theorem to calculate the area including the edge. 
 
 ========================================================================
+
+In object-oriented programming, a class variable is a variable that is shared by all instances (objects) of a class. This means that if you change the value of a class variable, it will be changed for all instances of the class. Class variables are typically used for class-wide constants or default values. 
+
+Here's an example of a class variable in Python: 
+
+class MyClass:
+    class_variable = "I'm a class variable"
+
+An instance variable, on the other hand, is a variable that belongs to an instance of a class. Each instance of a class has its own copy of the instance variables, so changes to an instance variable in one instance do not affect other instances. 
+
+Here's an example of an instance variable in Python: 
+
+class MyClass:
+    def __init__(self):
+        self.instance_variable = "I'm an instance variable"
+
+========================================================================

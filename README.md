@@ -22,7 +22,7 @@
 |17|[:star:](https://adventofcode.com/2023/day/17)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D17_1.py) [:santa:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D17_2.py)|1.265e+00s|3.750e+00s|
 |18|[:star:](https://adventofcode.com/2023/day/18)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D18_1_better.py) [:santa:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D18_2.py)|3.238e-03s|3.419e-03s|
 |19|[:star:](https://adventofcode.com/2023/day/19)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D19_1.py) [:santa:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D19_2.py)|9.898e-03s|8.518e-03s|
-|20|[:star:](https://adventofcode.com/2023/day/20)||||
+|20|[:star:](https://adventofcode.com/2023/day/20)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D20_1.py) [:santa:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D20_2.py)|4.673e-02s|1.278e-01s|
 |21|[:star:](https://adventofcode.com/2023/day/21)||||
 |22|[:star:](https://adventofcode.com/2023/day/22)||||
 |23|[:star:](https://adventofcode.com/2023/day/23)||||
