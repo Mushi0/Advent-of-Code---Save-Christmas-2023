@@ -22,11 +22,6 @@ def main(DATA_INPUT):
         if 'S' in line:
             start = (my_map.index(line), line.index('S'))
             break
-
-    for line in my_map:
-        if 'S' in line:
-            start = (my_map.index(line), line.index('S'))
-            break
     
     diamond_plots = 0
     for i, line in enumerate(my_map):
