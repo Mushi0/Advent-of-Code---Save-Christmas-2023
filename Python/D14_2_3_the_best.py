@@ -1,6 +1,5 @@
 import sys
 import time
-from tqdm import tqdm
 
 NB_CYCLES = 1000000000
 # NB_CYCLES = 3
