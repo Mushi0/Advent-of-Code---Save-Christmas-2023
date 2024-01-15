@@ -27,10 +27,12 @@
 |22|[:star:](https://adventofcode.com/2023/day/22)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D22_1.py) [:santa:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D22_2.py)|2.302e+00s|1.439e+00s|
 |23|[:star:](https://adventofcode.com/2023/day/23)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D23_1.py) [:santa:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D23_2.py)|2.088e-01s|1.300e+02s[^2]|
 |24|[:star:](https://adventofcode.com/2023/day/24)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D24_1.py) [:santa:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D24_2.py)|2.424e-01s|3.290e-01s|
-|25|[:star:](https://adventofcode.com/2023/day/25)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D25_1.py)|2.117e-01s||
+|25|[:star:](https://adventofcode.com/2023/day/25)|[:christmas_tree:](https://github.com/Mushi0/Advent-of-Code---Save-Christmas-2023/blob/main/Python/D25_1.py) :snowflake: [^3]|2.117e-01s|-|
 
 -----------------------------
 
 [^1]: :star:: link to the problem page; :christmas_tree:: link to the first problem solution; :santa:: link to the second problem solution. 
 
-[^2]: To run this problem, I used a very powerful computer with very big memory. 
+[^2]: To run this problem, I used a very powerful computer with a very big memory. 
+
+[^3]: Day 25 does not have part 2
