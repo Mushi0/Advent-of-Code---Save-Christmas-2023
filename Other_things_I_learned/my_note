@@ -56,3 +56,11 @@ class MyClass:
         self.instance_variable = "I'm an instance variable"
 
 ========================================================================
+
+Dijkstra's algorithm is designed to find the shortest path in a weighted graph, not the maximum cost path. To find the maximum cost path, you would need to use a different algorithm, such as the Bellman-Ford algorithm or the Floyd-Warshall algorithm. 
+
+========================================================================
+
+Oh well, Bellman-Ford algorithm only works when the graph doesn't contain any positive cycle... 
+
+========================================================================

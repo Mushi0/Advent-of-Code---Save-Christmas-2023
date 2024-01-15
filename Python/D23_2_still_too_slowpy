@@ -1,0 +1,66 @@
+import sys
+import time
+
+dirs = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+
+def main(DATA_INPUT):
+    start_time = time.time()
+
+    with open(DATA_INPUT, 'r') as f:
+        my_map = f.read().splitlines()
+
+    start_pos = (0, 1)
+    end_pos = (len(my_map) - 1, len(my_map[0]) - 2)
+
+    def check_slope_valid(pos, dir):
+        return ((my_map[pos[0]][pos[1]] == '>' and dir != (0, 1)) or 
+        (my_map[pos[0]][pos[1]] == 'v' and dir != (1, 0)) or 
+        (my_map[pos[0]][pos[1]] == '<' and dir != (0, -1)) or 
+        (my_map[pos[0]][pos[1]] == '^' and dir != (-1, 0)))
+
+
+    nb_steps = 0
+    Q = [((start_pos[0] + 1, start_pos[1]), start_pos, {start_pos, (start_pos[0] + 1, start_pos[1])})]
+    while Q:
+        this_pos, previous_pos, visited = Q.pop()
+
+        neighbour = []
+        for dir in dirs:
+            next_pos = (this_pos[0] + dir[0], this_pos[1] + dir[1])
+
+            if next_pos == previous_pos:
+                continue
+
+            if next_pos == end_pos:
+                if len(visited) > nb_steps:
+                    # for i, line in enumerate(my_map):
+                    #     for j, char in enumerate(line):
+                    #         if (i, j) in visited:
+                    #             print('O', end='')
+                    #         else:
+                    #             print(char, end='')
+                    #     print()
+                    nb_steps = len(visited)
+                    print(nb_steps)
+                break
+                
+            if check_slope_valid(this_pos, dir) or check_slope_valid(next_pos, dir):
+                continue
+            
+            if my_map[next_pos[0]][next_pos[1]] == '#':
+                continue
+            
+            if (next_pos) in visited:
+                continue
+            
+            new_visited = visited.copy()
+            new_visited.add(next_pos)
+            neighbour.append((next_pos, this_pos, new_visited))
+        
+        Q.extend(neighbour)
+    
+    print(f'Time taken: {(time.time() - start_time):.3e}s')
+    print(f'The longest hike is: {nb_steps} steps long')
+
+if __name__ == '__main__':
+    main(sys.argv[1])
